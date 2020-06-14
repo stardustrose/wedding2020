@@ -1,0 +1,296 @@
+
+.miss-font {
+  font-family: 'Miss Fajardose';
+}
+
+.rustic-pink {
+  color: #ad5d6b
+}
+
+.rustic-gold {
+  color: #99795F
+}
+
+.dark-rustic-gold {
+  color: #715742
+}
+
+.light-grey {
+  color: #eee;
+}
+
+.rustic-grey {
+  color: #464545
+}
+
+.pale-yellow-bg {
+  background: #FFFCF1;
+}
+#musica {
+  visibility: hidden;
+}
+.hamburger {
+  font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    cursor: pointer;
+    position: absolute;
+    z-index: 900;
+    right: 0;
+    padding: 10px;
+    color: #ffffff;
+    BACKGROUND: #cc4c43b5;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 900;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+body {
+  font-family: 'Crimson Text'
+}
+
+.corner_border_left {
+  -ms-transform: scaleX(-1) rotate(-180deg); /* IE 9 */
+  transform: scaleX(-1) rotate(-180deg);
+      position: absolute;
+      top: 83px;
+      left: 0;
+      max-width: 300px;
+      z-index: 100;
+}
+
+.corner_border_right {
+  -ms-transform: scaleX(-1) rotate(-180deg); /* IE 9 */
+  transform: rotate(-180deg);
+      position: absolute;
+      top: 83px;
+      right: 0;
+      max-width: 300px;
+      z-index: 100;
+}
+
+.hero {
+  height: 700px !important;
+  overflow: hidden;
+}
+
+.main-hero {
+  background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/nature-grass_7HN13C5AKI.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.top-hero {
+  border-bottom: 12px double #ffffff;
+}
+
+.background-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1
+}
+
+.hero-top-layer {
+  background: #c793a4;
+  opacity: 0.4
+}
+
+.top-nav {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 83px;
+  text-align: center;
+  background: #bea693;
+    padding: 20px 20px;
+}
+
+.top-nav li {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #99795F;
+  margin-right: 2rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  background: #fffdf7;
+}
+
+.top-nav li:hover {
+  color: #fff;
+  background: #a24754;
+  cursor: default;
+}
+
+.top-nav li:last-child {
+  margin-right: 0;
+}
+
+.top-header_button {
+  background-color: #c76b78;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  letter-spacing: 0.15rem;
+  font-size: 0.9rem;
+}
+
+.top-header_title {
+  font-size: 9rem;
+  line-height: 1;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1.5rem;
+}
+
+.wedding-info p {
+  margin: 1rem 0;
+}
+
+.btn_rsvp {
+  background: #ce867e;
+  padding:0.7rem 1.5rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.flowers-right {
+  transform: scaleX(-1);
+}
+
+.wedding-schedule {
+  height:600px;
+  overflow:hidden;
+}
+
+.wedding-schedule_timeline {
+  height: 600px;
+}
+
+.wedding-schedule_timeline_item {
+  @apply .text-base;
+  @apply .my-2
+}
+
+.wedding-schedule_timeline_item_time {
+  @apply .rustic-gold;
+  @apply .uppercase;
+  @apply .tracking-widest;
+}
+
+.wedding-schedule_timeline_item_dash {
+  @apply .rustic-gold
+}
+
+.wedding-schedule_timeline_item_description {
+  @apply .rustic-grey;
+  @apply .tracking-widest;
+}
+
+.sl-wrapper .sl-content {
+width: 100vh;
+}
+
+.gallery_title {
+  font-size: 9rem;
+  border: 10px double #98775f;
+    color: #99785f;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.gallery_item {
+  height: 180px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 979px) {
+  .corner_border_left, .corner_border_right {
+    display: none;
+  }
+  .top-nav {
+    margin-bottom: 1rem;
+    display: inline-block;
+    position: inherit;
+    background: #fff;
+  }
+  .top-nav li {
+    display: block;
+    border: none;
+    width: 100%;
+    background: #c76b78;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+
+  .top-header_title {
+    font-size: 5rem;
+    color: #fff !important;
+    margin-top: 2rem !important;
+  }
+  .wedding-schedule {
+    height:auto;
+    overflow:auto;
+  }
+  .wedding-schedule_flowers, .wedding-schedule_timeline {
+    height:auto;
+
+  }
+  .gallery_item {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+}

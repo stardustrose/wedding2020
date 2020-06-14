@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="/build/tailwind.css" />
+  <title>Victoria & Chris Thomas || Wedding 2020</title>
+</head>
+
+<body class="antialiased">
+
+  <!-- Hanburger mobile menu -->
+  <div class="fixed md:hidden hamburger"><i class="fas fa-bars"></i> Open Menu</div>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <div class="overlay-content">
+      <a href="/">Home</a>
+      <a href="#wedding-schedule">Wedding Schedule</a>
+      <a href="#photo-gallery">Photo Gallery</a>
+      <a href="https://www.theknot.com/registry">Registry</a>
+      <a href="#">RSVP</a>
+    </div>
+  </div>
+
+  <!-- top nav -->
+  <nav class="top-nav hidden md:block z-20">
+    <ul>
+      <li class="border-double border-4"><i class="fas fa-home"></i> <a href="/">Home</a></li>
+      <li class="border-double border-4"><i class="far fa-clock"></i> <a href="#wedding-schedule">Wedding Schedule</a></li>
+      <li class="border-double border-4"><i class="far fa-images"></i> <a href="#photo-gallery">Photo Gallery</a></li>
+      <li class="border-double border-4"><i class="fas fa-gifts"></i> <a href="https://www.theknot.com/registry">Registry</a></li>
+      <li class="border-double border-4"><i class="fas fa-envelope-open-text"></i> RSVP</li>
+    </ul>
+  </nav>
+
+
+  <!-- top hero -->
+  <!-- corner flower borders -->
+  <img class="corner_border_left hidden md:inline-block" src="corner.png" alt="corner flower border">
+  <img class="corner_border_right hidden md:inline-block" src="corner.png" alt="corner flower border">
+
+  <div class="hero relative z-10 w-full main-hero">
+    <div style="height: 700px;z-index:-1" class="hidden md:inline-block absolute w-full hero-top-layer"></div>
+    <div class="block z-50 hero top-hero flex w-full mx-auto pt-6 md:pt-0 items-center bg-cover bg-right">
+      <div class="container mx-auto">
+        <div class="w-full px-6 flex flex-col items-center">
+          <p class="my-4 miss-font text-white top-header_title mb-3">Victoria & Chris</p>
+          <p class="text-xl text-white tracking-widest"><i class="fas fa-sun"></i> DAYS UNTIL OUR WEDDING <i class="fas fa-sun"></i></p>
+          <p class="text-white text-3xl" id="countdown"></p>
+          <img src="border.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- wedding info -->
+  <div class="container mx-auto my-10 md:flex md:items-center md:grid md:grid-cols-12 md:my-20">
+    <img class="hidden md:inline-block md:col-span-2" src="flowers.png" alt="Beautiful wedding flowers">
+    <div class="wedding-info text-center md:col-span-8 md:col-start-3 tracking-widest">
+      <p class="text-xl dark-rustic-gold">
+        You are cordially invited to celebrate the holy and joyous wedding of <br>
+        <strong> Christopher Mark Thomas and Victoria Kayla Jones</strong>.
+      </p>
+      <hr class="light-grey my-8">
+      <div class="wedding-info_list dark-rustic-gold mb-8">
+        <p>Location: Wildflower Farm & Venue, 123 Wildflower Drive, Roxboro, NC 27573</p>
+        <p>Wedding Date: August 11, 2020</p>
+        <p>Ceremony Start Time: 6:00 pm</p>
+      </div>
+      <p>
+        <button class="btn_rsvp mb-5 uppercase tracking-widest px-8 py-4 font-bold">RSVP to the wedding</button>
+      </p>
+    </div>
+    <img class="hidden md:inline-block md:col-span-2 flowers-right" src="flowers.png" alt="Beautiful wedding flowers">
+  </div>
+
+  <!-- wedding schedule -->
+  <div id="wedding-schedule" class="wedding-schedule md:grid md:grid-cols-12 md:flex pale-yellow-bg">
+    <div class="wedding-schedule_imgwrap hidden md:inline-block md:col-span-5">
+      <img class="w-full"
+        src="https://www.brides.com/thmb/NJXGBJKvLrd1d_M1OFEQuRxRikY=/1016x755/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2018__09__27__5bacf9e42d0b7d466eb6cc09_2.20Lauren20Emerson20Events202620Design-ad679951513a4b9380a86a2ae2abedda.png"
+        alt="Wedding venue"></div>
+
+    <div class="wedding-schedule_flowers hidden md:inline-block md:col-span-3 self-center">
+      <img class="w-full" src="flowers2.png" alt="Beautiful wedding flowers">
+    </div>
+
+    <div class="wedding-schedule_timeline md:col-span-4 px-4 pale-yellow-bg py-4 self-center">
+      <h2 class="wedding-schedule_timeline_title rustic-gold text-4xl">Wedding Schedule</h2>
+      <hr class="light-grey md:py-4">
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">8:00am</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">Hair & Makeup begins</span>
+      </p>
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">2:00pm</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">Wedding party photos start at farm</span>
+      </p>
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">4:30pm</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">Vendors arrive for setup</span>
+      </p>
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">5:30pm</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">Guests arrive / Party line-upp</span>
+      </p>
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">6:00pm</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">Ceremony starts</span>
+      </p>
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">6:45pm</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">Cocktail hour starts</span>
+      </p>
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">7:45pm</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">First Dance</span>
+      </p>
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">8:00pm</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">Dinner served</span>
+      </p>
+
+      <p class="wedding-schedule_timeline_item">
+        <span class="wedding-schedule_timeline_item_time">8:25pm</span>
+        <span class="wedding-schedule_timeline_item_dash">—</span>
+        <span class="wedding-schedule_timeline_item_description">Cake cutting</span>
+      </p>
+
+    </div>
+  </div>
+
+  <!-- photo gallery -->
+  <div class="lg:flex lg:flex-col">
+    <div id="photo-gallery" class="gallery_title lg:inline-block text-center">Photo Gallery</div>
+    <div class="gallery lg:flex lg:grid lg:gap-6 lg:grid-cols-12 imageGallery1">
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"><img
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1510017085787-46dd6779d5b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"><img
+            src="https://images.unsplash.com/photo-1510017085787-46dd6779d5b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1452571817344-8d5a4c2100c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"><img
+            src="https://images.unsplash.com/photo-1452571817344-8d5a4c2100c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1520869309377-88c9274a27c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"><img
+            src="https://images.unsplash.com/photo-1520869309377-88c9274a27c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1520869578617-557561d7b114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"><img
+            src="https://images.unsplash.com/photo-1520869578617-557561d7b114?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1588963200960-44cf8e2b6fed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1250&q=80"><img
+            src="https://images.unsplash.com/photo-1588963200960-44cf8e2b6fed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1250&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80"><img
+            src="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1490587023182-5e096fcedeb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80"><img
+            src="https://images.unsplash.com/photo-1490587023182-5e096fcedeb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://s9739.pcdn.co/wp-content/uploads/2016/10/Rittenhouse_Erman_Emily_Nicole_Photo_ErmanWedding05142016emilynicolephotocom130_low-780x520.jpg.optimal.jpg"><img
+            src="https://s9739.pcdn.co/wp-content/uploads/2016/10/Rittenhouse_Erman_Emily_Nicole_Photo_ErmanWedding05142016emilynicolephotocom130_low-780x520.jpg.optimal.jpg" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1562616293-1a11a7816903?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80"><img
+            src="https://images.unsplash.com/photo-1562616293-1a11a7816903?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1515626553181-0f218cb03f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"><img
+            src="https://images.unsplash.com/photo-1515626553181-0f218cb03f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+
+      <div class="gallery_item col-span-4"><a href="https://images.unsplash.com/photo-1425421543490-6a133856ff32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"><img
+            src="https://images.unsplash.com/photo-1425421543490-6a133856ff32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="wedding photo" title="wedding photo" /></a></div>
+    </div>
+  </div>
+
+
+
+  <!-- footer -->
+  <footer class="main-footer flex pale-yellow-bg py-8 px-4 justify-end">
+    <div class="copyright rustic-gold">&copy; 2020, All Rights Reserved. Photos courtesty of Unsplash.</div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+  <!-- https://dbrekalo.github.io/simpleLightbox/dist/simpleLightbox.min.js -->
+  <script src="lightbox.js"></script>
+
+  <!-- https://github.com/cferdinandi/smooth-scroll -->
+  <script src="smoothscroll.js"></script>
+
+  <script src="custom.js"></script>
+</body>
+
+</html>
