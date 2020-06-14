@@ -653,10 +653,6 @@ video {
   background: #FFFCF1;
 }
 
-#musica {
-  visibility: hidden;
-}
-
 .hamburger {
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
@@ -788,7 +784,7 @@ body {
 .top-nav li {
   display: inline-block;
   padding: 0.5rem 1rem;
-  color: #99795F;
+  color: #6f4446;
   margin-right: 2rem;
   font-size: 0.8rem;
   letter-spacing: 0.15rem;
@@ -827,9 +823,14 @@ body {
 }
 
 .btn_rsvp {
-  background: #ce867e;
-  padding:0.7rem 1.5rem;
-  border-radius: 10px;
+  background: none;
+  border: 4px double #bf6369;
+  padding: 0.7rem 1.5rem;
+  color: #bf6369;
+}
+
+.btn_rsvp:hover {
+  background: #bf6369;
   color: #fff;
 }
 
@@ -853,7 +854,7 @@ body {
 }
 
 .wedding-schedule_timeline_item_time {
-  color: #99795F;
+  color: #5f4734;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -885,6 +886,10 @@ body {
 .gallery_item {
   height: 180px;
   overflow: hidden;
+}
+
+.copyright {
+  color: #5f4734;
 }
 
 @media only screen and (max-width: 979px) {
