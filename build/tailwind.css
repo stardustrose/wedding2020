@@ -843,8 +843,12 @@ body {
   overflow:hidden;
 }
 
+.wedding-schedule_imgwrap, .wedding-schedule_flowers {
+   height: 600px;
+}
+
 .wedding-schedule_timeline {
-  height: 600px;
+  height: auto;
 }
 
 .wedding-schedule_timeline_item {
