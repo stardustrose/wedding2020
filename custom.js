@@ -7,7 +7,7 @@ $( '.overlay-content a, .closebtn' ).on("click", function(){
 });
 
 // wedding countdown date
-var countDownDate = new Date("Aug 11, 2020 15:37:25").getTime();
+var countDownDate = new Date("Aug 11, 2021 15:37:25").getTime();
 
 var x = setInterval(function() {
 
